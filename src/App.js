@@ -1,9 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import './bootstrap.min.css';
-
+import React, { useEffect, useState } from 'react';
 import NavbarTab from "./components/navbar";
-import {BrowserRouter as Router, Switch, Route,Link} from "react-router-dom";
 
 function App() {
   return (

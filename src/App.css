@@ -31,7 +31,7 @@ a#contact{
   border-radius: 4px;
 }
 
-section#home {
+section.home {
   margin-top: 150px;
 }
 
@@ -77,4 +77,26 @@ button.btn {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
   padding: 1.1rem;
   border-radius: 400px;
+}
+
+
+.bounce {
+  animation: bounce2 2s ease infinite;
+}
+
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+
+h4.colored_text {
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  font-size: 30px;
+  line-height: 41px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
 }
