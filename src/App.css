@@ -9,10 +9,6 @@ body{
 
 }
 
-.App {
-  text-align: center;
-}
-
 /* NAVBAR STYLING */
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #000;
@@ -39,6 +35,19 @@ section#home {
   margin-top: 150px;
 }
 
+sub.sub {
+  font-size: 27px;
+  color: #7D7D7D;
+  line-height: 62px;
+}
+
+
+p.home_intro {
+  font-size: 34px;
+  line-height: 43px;
+  color: #29222E;
+}
+
 button.btn {
   background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ED861 88.77%);
   box-shadow: 0px 6px 16px rgba(42, 123, 215, 0.18);
@@ -47,7 +56,25 @@ button.btn {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 23px;
   text-transform: uppercase;
+}
+
+.green_circle img{
+  width: 100%;
+}
+
+.blue_circle {
+  background: #BFD7F3;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 400px;
+  padding: 1.1rem;
+}
+
+.green_circle {
+  background: #ABEDB4;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 1.1rem;
+  border-radius: 400px;
 }

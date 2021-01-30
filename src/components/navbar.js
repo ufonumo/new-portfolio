@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import {BrowserRouter as Router, Switch, Route,Link} from "react-router-dom";
 import logo from "../assets/Logo.svg";
 import vector from "../assets/Vector.svg";
+import photo from '../assets/Ellipse 1.svg';
 
 const NavbarTab = () =>{
     return(
@@ -25,13 +26,15 @@ const NavbarTab = () =>{
         <section id='home'>
           <div className="row ">
             <div className="col-lg-7 white">
-              <sub>Hi there <img src={vector} alt="love"/></sub>
-              <p>I’m <b>Ufonabasi Umo,</b> Frontend Developer,with a hands-on experience using Html. Css, bootstrap, SASS and Javascript to create and implement web applications.</p>
-              <a href="#"><button className='btn'>View My Projects</button></a> 
+              <sub className='sub'>Hi there <img src={vector} alt="love"/></sub>
+              <p className='home_intro'>I’m <b>Ufonabasi Umo,</b> Frontend Developer, with a hands-on experience in creating web applications.</p>
+              <a href="#"><button className='btn mt-3 mb-5'>View My Projects</button></a> 
             </div>
             <div className="col-lg-5 white">
-              <div className="green_circle">
-
+              <div className="blue_circle">
+                <div className="green_circle">
+                  <img src={photo} alt="photo"/>
+                </div>
               </div>
             </div>
           </div>
