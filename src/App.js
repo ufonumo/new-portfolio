@@ -14,10 +14,14 @@ function App() {
         <NavbarTab/>
  
         <Route exact path='/Home' component={Home} />
-        <Route  exact path="/About"  component={About} />
+        <Route   path="/About"  component={About} />
 
-        <Route exact path="/Projects"  component={Projects}/>
+        <Route  path="/Projects"  component={Projects}/>
 
+
+{/*   
+        <Home/>
+        <About/> */}
 
       </div>
     </BrowserRouter>
