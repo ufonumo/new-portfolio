@@ -1,4 +1,9 @@
 import thees from "../assets/thess.jpg";
+import vendor from "../assets/vendor.jpg";
+import weaner from "../assets/weaners.jpg";
+import profile from "../assets/profile.jpg";
+import convert from "../assets/convert.jpg";
+import weather from "../assets/weather.jpg";
 
 export const ProjectData = [
     {
@@ -10,38 +15,48 @@ export const ProjectData = [
     },
 
     {
-        title: ` `,
-        image: ImageOne,
+        title: `Bookdown-FoodVendor `,
+        image: vendor,
         alt: 'Food',
         description: '',
-        link: 'https://thees-news-app.netlify.app/'
+        link: 'https://food.bookdown.ng/vendor-app/signin.html'
 
     },
 
     {
-        title: `Thee's news App `,
-        image: ImageOne,
+        title: `Profile Search `,
+        image: profile,
         alt: 'Food',
         description: '',
-        link: 'https://thees-news-app.netlify.app/'
+        link: 'https://profile-search-ufon.netlify.app/'
 
     },
 
     {
-        title: `Thee's news App `,
-        image: ImageOne,
+        title: `Degree Converter `,
+        image: convert,
         alt: 'Food',
         description: '',
-        link: 'https://thees-news-app.netlify.app/'
+        link: 'https://degree-minutes-converter.netlify.app/'
 
     },
 
     {
-        title: `Thee's news App `,
-        image: ImageOne,
+        title: `Weaner's`,
+        image: weaner,
         alt: 'Food',
         description: '',
-        link: 'https://thees-news-app.netlify.app/'
+        link: 'https://gallant-hamilton-d2b950.netlify.app/'
+
+    },
+
+    
+    {
+        title: `Weather Webapp`,
+        image: weather,
+        alt: 'Food',
+        description: '',
+        link: 'https://weather-ufon.netlify.app/'
 
     },
 ]
