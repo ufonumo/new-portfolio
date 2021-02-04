@@ -9,7 +9,6 @@ import Projects from "./Projects";
 
 const NavbarTab = () =>{
   const [navbar, setNavbar] = useState(false);
-  const aboutSection = useRef(null)
 
   const changeBackground = () =>{
     if(window.scrollY >= 100){
@@ -20,10 +19,6 @@ const NavbarTab = () =>{
     }
   }
 
-  const gotoAboutSection = () => window.scrollTo(
-    { top: aboutSection.current.offsetTop,
-      behaviour: "smooth"
-    })
 
   window.addEventListener('scroll', changeBackground)
 
@@ -44,12 +39,9 @@ const NavbarTab = () =>{
           </Navbar.Collapse>
         </Navbar>
 
-        {/* HOME SECTION */}
-
         <Home/>
-        <About ref={aboutSection}/>
-
-        {/* ABOUT ME SECTION */}
+        <About />
+        <Projects/>
 
 
       </div>  
