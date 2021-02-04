@@ -8,31 +8,23 @@ import About from './About';
 import Projects from "./Projects";
 
 const NavbarTab = () =>{
+  const [navbar, setNavbar] = useState(false);
 
-  let listener = null
-  const [scrollState, setScrollState] = useState("top")
-
-  useEffect(() => {
-    listener = document.addEventListener("scroll", e => {
-      var scrolled = document.scrollingElement.scrollTop
-      if (scrolled >= 120) {
-        if (scrollState !== "amir") {
-          setScrollState("amir")
-        }
-      } else {
-        if (scrollState !== "top") {
-          setScrollState("top")
-        }
-      }
-    })
-    return () => {
-      document.removeEventListener("scroll", listener)
+  const changeBackground = () =>{
+    if(window.scrollY >= 100){
+      setNavbar(true)
     }
-  }, [scrollState])
-  
+    else{
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground)
+
+ 
     return(
       <div className='container'>
-        <Navbar fixed="top" className='container' expand="lg">
+        <Navbar  fixed="top" className={navbar ? 'navbar active container' : 'navbar container'}  expand="lg">
           <Navbar.Brand > <Link to='/'  className="nav-link "> <img src={logo} />Umo</Link>  </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
