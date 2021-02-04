@@ -13,18 +13,18 @@ function App() {
       <div className="App container">
         <NavbarTab/>
  
-        <Route exact path='/Home' component={Home} />
+        {/* <Route exact path='/Home' component={Home} />
         <Route   path="/About"  component={About} />
 
         <Route  path="/Projects"  component={Projects}/>
-
+ */}
 
 {/*   
         <Home/>
         <About/> */}
 
       </div>
-    </BrowserRouter>
+     </BrowserRouter>
   );
 }
 

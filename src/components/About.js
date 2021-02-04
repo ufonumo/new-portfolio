@@ -3,8 +3,8 @@ import React from 'react';
 export default function About() {
     return (
         <div>
-            <section id='about' className='home'> 
-            <div className="row">
+            <section  className='home_margintop'> 
+            <div className="row" id='about'>
                 <div className="col-lg-4">
                     <h4 className='colored_text'>ABOUT ME</h4>
                 </div>
@@ -23,7 +23,7 @@ export default function About() {
             </div>
             </section>
 
-            <section id='skills' className='pt-5'>
+            <section id='skills' className='pt-5 mb-5'>
                 <div className="row">
                     <div className="col-lg-4">
                     <h4 className='colored_text'>SKILLS</h4>

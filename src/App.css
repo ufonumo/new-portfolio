@@ -91,7 +91,6 @@ button.btn {
   border-radius: 400px;
 }
 
-
 .bounce {
   animation: bounce2 2s ease infinite;
 }
@@ -111,4 +110,8 @@ h4.colored_text {
   background-clip: text;
   -webkit-background-clip: text;
   text-align: center;
+}
+
+.home_margintop{
+  margin-top: 100px;
 }

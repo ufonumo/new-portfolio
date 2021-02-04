@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState , useRef} from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import {BrowserRouter as Router, Switch, Route,Link} from "react-router-dom";
+import {HashLink as Link} from 'react-router-hash-link'
 import logo from "../assets/Logo.svg";
 import Home from './Home';
 import About from './About';
@@ -9,6 +9,7 @@ import Projects from "./Projects";
 
 const NavbarTab = () =>{
   const [navbar, setNavbar] = useState(false);
+  const aboutSection = useRef(null)
 
   const changeBackground = () =>{
     if(window.scrollY >= 100){
@@ -18,6 +19,11 @@ const NavbarTab = () =>{
       setNavbar(false);
     }
   }
+
+  const gotoAboutSection = () => window.scrollTo(
+    { top: aboutSection.current.offsetTop,
+      behaviour: "smooth"
+    })
 
   window.addEventListener('scroll', changeBackground)
 
@@ -29,10 +35,10 @@ const NavbarTab = () =>{
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                  <Nav.Link > <Link to="/Home" className="nav-link link">Home</Link> </Nav.Link>
-                  <Nav.Link > <Link to="/About" className="nav-link link">About Me</Link> </Nav.Link>
-                  <Nav.Link > <Link to="/Projects" className="nav-link link">Projects</Link> </Nav.Link>
-                  <Nav.Link > <Link to="/UpdateOnstocks" id='contact' className="nav-link link">Say Hello</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth  to="#home" className="nav-link link">Home</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth to="#about" className="nav-link link">About Me</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth to="#projects" className="nav-link link">Projects</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth to="#UpdateOnstocks" id='contact' className="nav-link link">Say Hello</Link> </Nav.Link>
                </Nav>
               
           </Navbar.Collapse>
@@ -41,7 +47,7 @@ const NavbarTab = () =>{
         {/* HOME SECTION */}
 
         <Home/>
-        <About/>
+        <About ref={aboutSection}/>
 
         {/* ABOUT ME SECTION */}
 
