@@ -18,16 +18,7 @@ export default function Projects() {
             code: `REACT ,  CSS ,  JAVASCRIPT`,
             link: 'https://thees-news-app.netlify.app/'
         },
-    
-        {
-            title: `Bookdown-FoodVendor `,
-            image: vendor,
-            alt: 'Food',
-            description: 'orem ipsum dolor sit amet consectetur, adipisicing elit. Quo, recusandae? Laborum accusantium dol',
-            link: 'https://food.bookdown.ng/vendor-app/signin.html'
-    
-        },
-    
+
         {
             title: `Profile Search `,
             image: profile,
@@ -37,6 +28,15 @@ export default function Projects() {
     
         },
     
+        {
+            title: `Bookdown-FoodVendor `,
+            image: vendor,
+            alt: 'Food',
+            description: 'orem ipsum dolor sit amet consectetur, adipisicing elit. Quo, recusandae? Laborum accusantium dol',
+            link: 'https://food.bookdown.ng/vendor-app/signin.html'
+    
+        },
+        
         {
             title: `Degree Converter `,
             image: convert,
