@@ -6,7 +6,6 @@ import logo from "../assets/Logo.svg";
 import Home from './Home';
 import About from './About';
 import Projects from "./Projects";
-import { ProjectData } from '../data/ProjectData';
 
 const NavbarTab = () =>{
   const [navbar, setNavbar] = useState(false);
@@ -26,15 +25,15 @@ const NavbarTab = () =>{
  
     return(
       <div className='container'>
-        <Navbar  fixed="top" className={navbar ? 'navbar active container' : 'navbar container'}  expand="lg">
+        <Navbar  fixed="top" className={navbar ? 'navbar active ' : 'navbar '}  expand="lg">
           <Navbar.Brand > <Link to='/'  className="nav-link "> <img src={logo} />Umo</Link>  </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                  <Nav.Link > <Link smooth  to="#home" className="nav-link link">Home</Link> </Nav.Link>
-                  <Nav.Link > <Link smooth to="#about" className="nav-link link">About Me</Link> </Nav.Link>
-                  <Nav.Link > <Link smooth to="#projects" className="nav-link link">Projects</Link> </Nav.Link>
-                  <Nav.Link > <Link smooth to="#UpdateOnstocks" id='contact' className="nav-link link">Say Hello</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth  to="#home" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Home</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth to="#about" className={navbar ? 'nav-link link active ' : 'nav-link link '} >About Me</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth to="#projects" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Projects</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth to="#UpdateOnstocks" id='contact' className={navbar ? 'nav-link link active ' : 'nav-link link '} >Say Hello</Link> </Nav.Link>
                </Nav>
               
           </Navbar.Collapse>
@@ -42,7 +41,7 @@ const NavbarTab = () =>{
 
         <Home/>
         <About />
-        <Projects Projectlist={ProjectData}/>
+        <Projects/>
 
 
       </div>  

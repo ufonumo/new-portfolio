@@ -7,9 +7,9 @@ export default function Home() {
     return (
         <div>
             <section  className='home'>
-                <div className="row " id='home'>
+                <div className="row " >
                     <div className="col-lg-7 white">
-                    <sub className='sub'>Hi there <img src={vector} alt="love"/></sub>
+                    <sub className='sub' id='home'>Hi there <img src={vector} alt="love"/></sub>
                     <p className='home_intro'>I’m <b>Ufonabasi Umo,</b> Frontend Developer, with a hands-on experience in creating web applications.</p>
                     <a href="#"><button className='btn mt-3 mb-5'>View My Projects</button></a> 
                     </div>

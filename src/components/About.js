@@ -4,9 +4,9 @@ export default function About() {
     return (
         <div>
             <section  className='home_margintop'> 
-            <div className="row" id='about'>
-                <div className="col-lg-4">
-                    <h4 className='colored_text'>ABOUT ME</h4>
+            <div className="row" >
+                <div className="col-lg-4" id='about'>
+                    <h4  className='colored_text'>ABOUT ME</h4>
                 </div>
                 <div className="col-lg-8">
                 <article>
