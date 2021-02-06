@@ -80,8 +80,8 @@ export default function Projects() {
 
                 <div className="row">
                     {projectData.map(list => (
+                        
                         <div className="col-lg-6 project mb-4">
-
                             <HoverVideoPlayer
                                 videoSrc={video}
                                 pausedOverlay={
