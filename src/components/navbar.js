@@ -6,6 +6,7 @@ import logo from "../assets/Logo.svg";
 import Home from './Home';
 import About from './About';
 import Projects from "./Projects";
+import Footer from './Footer';
 
 const NavbarTab = () =>{
   const [navbar, setNavbar] = useState(false);
@@ -42,7 +43,7 @@ const NavbarTab = () =>{
         <Home/>
         <About />
         <Projects/>
-
+        <Footer/>
 
       </div>  
     )
