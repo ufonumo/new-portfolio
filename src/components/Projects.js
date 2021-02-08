@@ -93,7 +93,7 @@ export default function Projects() {
                         
                         <div className="col-lg-6 project mb-4">
                             <HoverVideoPlayer
-                                videoSrc={list.video}
+                                videoSrc={list.video} className='video_player'
                                 pausedOverlay={
                                     <img src={list.image} alt="video thumbnail" />
                                 }
@@ -103,13 +103,14 @@ export default function Projects() {
                             />
 
                             <div className="project_container">
-                                <div className='group_icon pt-4'>
-                                    <h6>{list.title}</h6>
-                                    <a href={list.link}> <img src={group} alt="link"/></a>
-                                </div>
-
+                                <a href={list.link}>
+                                    <div className='group_icon pt-4'>
+                                        <h6>{list.title}</h6>
+                                        <img src={group} alt={list.alt}/>
+                                    </div>
+                                </a>
                                 <p>{list.description}</p>
-                                <div>{list.code}</div>
+                                <div className='list_codes'>{list.code}</div>
                             </div>
                        </div>
                     ))}

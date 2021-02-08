@@ -35,7 +35,7 @@ const NavbarTab = () =>{
                   <Nav.Link > <Link smooth  to="#home" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Home</Link> </Nav.Link>
                   <Nav.Link > <Link smooth to="#about" className={navbar ? 'nav-link link active ' : 'nav-link link '} >About Me</Link> </Nav.Link>
                   <Nav.Link > <Link smooth to="#projects" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Projects</Link> </Nav.Link>
-                  <Nav.Link > <Link smooth to="#UpdateOnstocks" id='contact' className={navbar ? 'nav-link link active ' : 'nav-link link '} >Say Hello</Link> </Nav.Link>
+                  <Nav.Link > <a smooth href="mailto:ufonumo@gmail.com " id='contact' className={navbar ? 'nav-link link active ' : 'nav-link link '} >Say Hello</a> </Nav.Link>
                </Nav>
               
           </Navbar.Collapse>

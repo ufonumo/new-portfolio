@@ -26,10 +26,10 @@ export default function About() {
             <section id='skills' className='pt-5 mb-5'>
                 <div className="row">
                     <div className="col-lg-4">
-                    <h4 className='colored_text'>SKILLS</h4>
+                        <h4 className='colored_text'>SKILLS</h4>
                     </div>
                     <div className="col-lg-8">
-                    <p className='article'>Javascript ES6, React, Next.js,  CSS3, SCSS, HTML5, BEM, Git, Webpack,  </p>
+                      <p className='article'>Javascript ES6, React, Next.js,  CSS3, SCSS, HTML5, BEM, Git, Webpack,  </p>
                     </div>
                 </div>
             </section>
