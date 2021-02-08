@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #f8f2f2b6 !important;
+  background-color: #000 !important;
 
 }
 
@@ -73,7 +73,7 @@ sub.sub {
 p.home_intro {
   font-size: 34px;
   line-height: 43px;
-  color: #29222E;
+  color: #fff;
 }
 
 button.btn {
@@ -98,6 +98,10 @@ button.btn {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
   border-radius: 400px;
   padding: 1.1rem;
+}
+
+.article{
+  color: #fff;
 }
 
 .green_circle {
@@ -168,9 +172,13 @@ h4.colored_text {
 .in_touch {
   background-image: url(./assets/big\ Logo.svg) ;
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* background-position: center; */
   height: 100%;
   object-fit: cover;
   padding-bottom: 6rem;
+}
+
+.copyright p{
+  color: #fff;
+  font-size: 12px;
+  line-height: 23px;
 }

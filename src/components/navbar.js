@@ -7,6 +7,7 @@ import Home from './Home';
 import About from './About';
 import Projects from "./Projects";
 import Footer from './Footer';
+import vector from "../assets/Vector.svg";
 
 const NavbarTab = () =>{
   const [navbar, setNavbar] = useState(false);
@@ -44,6 +45,12 @@ const NavbarTab = () =>{
         <About />
         <Projects/>
         <Footer/>
+
+        <section>
+          <div className="copyright">
+            <p>All rights reserved. Made with <img src={vector} alt="love"/> and designed by Mike Ebube</p>
+          </div>
+        </section>
 
       </div>  
     )
