@@ -22,7 +22,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="text-center ">
+                <div className="text-center bounce">
                    <a href="#about"><img className='bounce' src={scroll} alt="scroll down"/></a> 
                 </div>
             </section>

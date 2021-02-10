@@ -57,6 +57,7 @@ a#contact{
   border: 1px solid #f7f6f8;
   box-sizing: border-box;
   border-radius: 4px;
+  padding: .5rem;
 }
 
 section.home {
@@ -225,4 +226,32 @@ h4.colored_text {
   color: #fff;
   text-decoration: none;
 
+}
+
+@media (max-width: 748px){
+  section.home {
+    margin-top: 100px;
+  }
+
+  .text-center.bounce {
+    margin-top: 30px;
+  }
+
+  .in_touch {
+    padding-bottom: 1rem;
+  }
+
+  .social_link{
+    padding-bottom: 3rem;
+  }
+
+  nav.container.navbar.navbar-expand-lg.navbar-light.fixed-top {
+    background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ed860ce 88.77%);
+    color: #fff;
+  }
+
+  nav.navbar.navbar.navbar-expand-lg.navbar-light.fixed-top {
+    background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ed860ce 88.77%);
+  }
+  
 }

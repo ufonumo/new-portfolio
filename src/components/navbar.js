@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { HashLink as Link } from 'react-router-hash-link-offset';
+import { HashLink as Link } from 'react-router-hash-link';
 import logo from "../assets/Logo.svg";
+import menu from "../assets/menu.svg";
+
 import Home from './Home';
 import About from './About';
 import Projects from "./Projects";
@@ -29,16 +31,16 @@ const NavbarTab = () =>{
       <div className='container'>
         <Navbar  fixed="top" className={navbar ? 'navbar active ' : 'navbar '}  expand="lg">
           <Navbar.Brand > <Link to='/'  className="nav-link "> <img src={logo} />Umo</Link>  </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto">
+          <Navbar.Toggle aria-controls="basic-navbar-nav">   <img src={menu} />    </Navbar.Toggle>
+            <Navbar.Collapse id="basic-navbar-nav"> 
+                <Nav className="ml-auto text-center">
                   <Nav.Link > <Link smooth  to="#home" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Home</Link> </Nav.Link>
                   <Nav.Link > <Link smooth to="#about" className={navbar ? 'nav-link link active ' : 'nav-link link '} >About Me</Link> </Nav.Link>
                   <Nav.Link > <Link smooth scrollOffset="1000" to="#projects" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Projects</Link> </Nav.Link>
                   <Nav.Link href="mailto:ufonumo@gmail.com " > <a id='contact' className={navbar ? 'nav-link link active ' : 'nav-link link '} >Say Hello</a> </Nav.Link>
                </Nav>
               
-          </Navbar.Collapse>
+             </Navbar.Collapse>
         </Navbar>
 
         <Home/>
