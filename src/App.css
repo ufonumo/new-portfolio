@@ -92,8 +92,6 @@ button.btn {
 
 .green_circle img{
   width: 100%;
-  animation: shine 3s linear infinite;
-
 }
 
 .blue_circle {
@@ -245,13 +243,11 @@ h4.colored_text {
     padding-bottom: 3rem;
   }
 
-  nav.container.navbar.navbar-expand-lg.navbar-light.fixed-top {
-    background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ed860ce 88.77%);
-    color: #fff;
-  }
-
   nav.navbar.navbar.navbar-expand-lg.navbar-light.fixed-top {
     background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ed860ce 88.77%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0 1rem;
   }
   
 }
