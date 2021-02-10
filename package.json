@@ -11,6 +11,7 @@
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-hover-video-player": "^6.7.0",
+    "react-loader-spinner": "^4.0.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.3.1",
     "react-router-hash-link-offset": "^1.2.0",
