@@ -85,12 +85,12 @@ export default function Projects() {
     ]
 
     return (
-        <div >
-            <section id="projects">
+        <div id="projects" >
+            <section >
                 <h4  className='colored_text pb-5'>FEATURED PROJECTS</h4>
 
                 <div className="row">
-                    {projectData.map(list => (
+                    {projectData.map(list =>  (
                         
                         <div className="col-lg-6 project mb-4">
                             <HoverVideoPlayer

@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e16abca.chunk.css",
+    "main.js": "/static/js/main.6483a967.chunk.js",
+    "main.js.map": "/static/js/main.6483a967.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1de067c0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1de067c0.js.map",
+    "static/js/2.9e55bc90.chunk.js": "/static/js/2.9e55bc90.chunk.js",
+    "static/js/2.9e55bc90.chunk.js.map": "/static/js/2.9e55bc90.chunk.js.map",
+    "static/js/3.5ee1162c.chunk.js": "/static/js/3.5ee1162c.chunk.js",
+    "static/js/3.5ee1162c.chunk.js.map": "/static/js/3.5ee1162c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2e16abca.chunk.css.map": "/static/css/main.2e16abca.chunk.css.map",
+    "static/js/2.9e55bc90.chunk.js.LICENSE.txt": "/static/js/2.9e55bc90.chunk.js.LICENSE.txt",
+    "static/media/Ellipse 1.a5df5d2a.svg": "/static/media/Ellipse 1.a5df5d2a.svg",
+    "static/media/Group.d0aa6b79.svg": "/static/media/Group.d0aa6b79.svg",
+    "static/media/Logo.ede4da6d.svg": "/static/media/Logo.ede4da6d.svg",
+    "static/media/Scroll.f797d6e2.svg": "/static/media/Scroll.f797d6e2.svg",
+    "static/media/Ufonabasi Resume.cd7b199c.pdf": "/static/media/Ufonabasi Resume.cd7b199c.pdf",
+    "static/media/Vector.0301be78.svg": "/static/media/Vector.0301be78.svg",
+    "static/media/App.css": "/static/media/big Logo.439498bf.svg",
+    "static/media/convert.abb78d38.jpg": "/static/media/convert.abb78d38.jpg",
+    "static/media/convertvid.61ad8031.mp4": "/static/media/convertvid.61ad8031.mp4",
+    "static/media/healthy.3251d53c.mp4": "/static/media/healthy.3251d53c.mp4",
+    "static/media/healthy.477a4f98.jpg": "/static/media/healthy.477a4f98.jpg",
+    "static/media/profile.d558c2e5.jpg": "/static/media/profile.d558c2e5.jpg",
+    "static/media/profilevid.cdff7b3b.mp4": "/static/media/profilevid.cdff7b3b.mp4",
+    "static/media/stockapp.bf6102d8.mp4": "/static/media/stockapp.bf6102d8.mp4",
+    "static/media/thess.43b6018d.jpg": "/static/media/thess.43b6018d.jpg",
+    "static/media/vendor.0670c00e.mp4": "/static/media/vendor.0670c00e.mp4",
+    "static/media/vendor.52c108d0.jpg": "/static/media/vendor.52c108d0.jpg",
+    "static/media/weather.1e279a48.jpg": "/static/media/weather.1e279a48.jpg",
+    "static/media/weathervid.b8e8ab07.mp4": "/static/media/weathervid.b8e8ab07.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1de067c0.js",
+    "static/js/2.9e55bc90.chunk.js",
+    "static/css/main.2e16abca.chunk.css",
+    "static/js/main.6483a967.chunk.js"
+  ]
+}
