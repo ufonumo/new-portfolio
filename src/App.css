@@ -1,38 +1,218 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+
+*{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+  background-color: #000 !important;
+
+}
+
+/* NAVBAR STYLING */
+nav.container.navbar.navbar-expand-lg.navbar-light.fixed-top {
+  background: transparent;
+  color: #fff;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top.active {
+  box-shadow: 0px 6px 16px rgba(42, 123, 215, 0.18);
+  background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ed860ce 88.77%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0 1rem;
+    /* color: #000; */
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link.active {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+a.nav-link {
+  color: #fff;
+}
+
+a.nav-link.active {
+  color: #fff;
+}
+
+a.nav-link.link {
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+}
+
+a#contact{
+  border: 1px solid #f7f6f8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+section.home {
+  margin-top: 150px;
+}
+
+sub.sub {
+  font-size: 27px;
+  color: #7D7D7D;
+  line-height: 62px;
+}
+
+
+p.home_intro {
+  font-size: 34px;
+  line-height: 43px;
+  color: #fff;
+}
+
+button.btn {
+  background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ED861 88.77%);
+  box-shadow: 0px 6px 16px rgba(42, 123, 215, 0.18);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.green_circle img{
+  width: 100%;
+}
+
+.blue_circle {
+  background: #9db9da;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 400px;
+  padding: 1.1rem;
+}
+
+.article{
+  color: #fff;
+}
+
+.green_circle {
+  background: #8ae496;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 1.1rem;
+  border-radius: 400px;
+}
+
+.bounce {
+  animation: bounce2 2s ease infinite;
+}
+
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+
+h4.colored_text {
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  font-size: 30px;
+  line-height: 41px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home_margintop{
+  margin-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project_container{
+  background: #fffffff5;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 14px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.project_container a, .project_container a:hover{
+  text-decoration: none;
+  color: transparent;
+}
+
+.project img{
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+
+ /* .project .video_player{
+  border-radius: 10px;
+
+} */
+
+.group_icon{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.group_icon:hover{
+  border-bottom: 2px solid #4ED861;
+  text-decoration: none;
+  width: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.group_icon h6{
+  font-size: 1.3rem;
+  color: #111111e5;
+}
+
+.list_codes{
+  color: #2A7BD7;
+  font-weight: 500;
+  background: rgba(42, 123, 215, 0.1);
+  width: fit-content;
+  padding: .5rem;
+}
+
+.group_icon img{
+  width: 7%;
+  height: auto;
+  padding-left: 1rem;
+  margin-top: -.5rem;
+}
+
+.footer {
+  background: #29222E;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.in_touch {
+  background-image: url(./assets/big\ Logo.svg) ;
+  background-repeat: no-repeat;
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 6rem;
+}
+
+.copyright p{
+  color: #fff;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.socials a{
+  color: #fff;
+  margin-left: .5rem;
 }
