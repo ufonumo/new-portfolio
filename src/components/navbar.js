@@ -21,10 +21,15 @@ const NavbarTab = () =>{
     else{
       setNavbar(false);
     }
-  }
+  };
+
+  // window.scroll=el => { el.scrollIntoView(true); window.scrollBy(0, -100); changeBackground() };
 
 
-  window.addEventListener('scroll', changeBackground)
+  window.addEventListener('scroll', () =>{
+    changeBackground()
+
+  })
 
  
     return(
@@ -34,9 +39,9 @@ const NavbarTab = () =>{
           <Navbar.Toggle aria-controls="basic-navbar-nav">   <img src={menu} />    </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav"> 
                 <Nav className="ml-auto text-center">
-                  <Nav.Link > <Link smooth  to="#home" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Home</Link> </Nav.Link>
-                  <Nav.Link > <Link smooth to="#about" className={navbar ? 'nav-link link active ' : 'nav-link link '} >About Me</Link> </Nav.Link>
-                  <Nav.Link > <Link smooth scrollOffset="1000" to="#projects" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Projects</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth scroll={el => { el.scrollIntoView(true); window.scrollBy(0, -100);  }} to="#home" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Home</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth scroll={el => { el.scrollIntoView(true); window.scrollBy(0, -100);  }} to="#about" className={navbar ? 'nav-link link active ' : 'nav-link link '} >About Me</Link> </Nav.Link>
+                  <Nav.Link > <Link smooth scroll={el => { el.scrollIntoView(true); window.scrollBy(0, -100);  }} scrollOffset="1000" to="#projects" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Projects</Link> </Nav.Link>
                   <Nav.Link href="mailto:ufonumo@gmail.com " > <a id='contact' className={navbar ? 'nav-link link active ' : 'nav-link link '} >Say Hello</a> </Nav.Link>
                </Nav>
               
