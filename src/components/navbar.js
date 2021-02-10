@@ -23,12 +23,9 @@ const NavbarTab = () =>{
     }
   };
 
-  // window.scroll=el => { el.scrollIntoView(true); window.scrollBy(0, -100); changeBackground() };
-
 
   window.addEventListener('scroll', () =>{
     changeBackground()
-
   })
 
  
