@@ -49,7 +49,7 @@ export const ProjectData = [
         image: weaner,
         alt: 'Food',
         description: '',
-        link: 'https://gallant-hamilton-d2b950.netlify.app/'
+        link: 'https://wearners.netlify.app/'
 
     },
 
