@@ -18,6 +18,7 @@ nav.container.navbar.navbar-expand-lg.navbar-light.fixed-top {
 
 #name{
   font-family: 'Akaya Telivigala', cursive;
+  font-size: 25px;
 }
 
 #name:hover{
@@ -80,9 +81,8 @@ a.nav-link.active {
 }
 
 a.nav-link.link {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 20px;
-  text-transform: uppercase;
   font-weight: 500;
   color: #fff;
 }
@@ -104,7 +104,6 @@ sub.sub {
   line-height: 62px;
 }
 
-
 p.home_intro {
   font-size: 34px;
   line-height: 43px;
@@ -121,7 +120,6 @@ button.btn {
   cursor: pointer;
   font-size: 15px;
   line-height: 23px;
-  text-transform: uppercase;
 }
 
 .green_circle img{
@@ -284,11 +282,11 @@ h4.colored_text {
   }
 
   a#contact {
-    border: 1px solid #f7f6f8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: .5rem;
     margin-bottom: 30px;
+  }
+
+  p.home_intro {
+    font-size: 32px;
   }
   
 }
