@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div>
+        <div id='about' className='pb-5'>
             <section  className='home_margintop'> 
             <div className="row" >
-                <div className="col-lg-4" id='about'>
+                <div className="col-lg-4" >
                     <h4  className='colored_text'>ABOUT ME</h4>
                 </div>
                 <div className="col-lg-8">
@@ -29,7 +29,7 @@ export default function About() {
                         <h4 className='colored_text'>SKILLS</h4>
                     </div>
                     <div className="col-lg-8">
-                      <p className='article'>Javascript ES6, React, Next.js,  CSS3, SCSS, HTML5, BEM, Git, Webpack,  </p>
+                      <p className='article'>Javascript ES6, React, Next.js,  CSS3, Bootstrap, SCSS, HTML5, BEM, Git,  </p>
                     </div>
                 </div>
             </section>
