@@ -96,7 +96,7 @@ export default function Projects() {
                     <div className="col-lg-6 project mb-4">
 
                     {projectData.map(list =>  (
-                        <div>
+                        <div className='mb-4'>
                             <HoverVideoPlayer
                                 videoSrc={list.video} className='video_player'
                                 pausedOverlay={

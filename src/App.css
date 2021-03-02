@@ -20,6 +20,12 @@ nav.container.navbar.navbar-expand-lg.navbar-light.fixed-top {
   font-family: 'Akaya Telivigala', cursive;
 }
 
+#name:hover{
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  color: transparent;
+  background-clip: text;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.fixed-top.active {
   box-shadow: 0px 6px 16px rgba(42, 123, 215, 0.18);
   background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ed860ce 88.77%);
@@ -29,8 +35,15 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top.active {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
-  font-weight: 600;
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  color: transparent;
+  background-clip: text;
+}
+
+ .navbar-nav .nav-link:hover {
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  color: transparent;
+  background-clip: text;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -132,6 +145,7 @@ button.btn {
   padding: 1.1rem;
   border-radius: 400px;
 }
+
 
 .bounce {
   animation: bounce2 2s ease infinite;
