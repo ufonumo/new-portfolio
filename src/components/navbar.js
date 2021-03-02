@@ -31,7 +31,7 @@ const NavbarTab = () =>{
     return(
       <div className='container'>
         <Navbar  fixed="top" className={navbar ? 'navbar active container' : 'navbar container'}  expand="lg">
-          <Navbar.Brand > <Link to='/'  className="nav-link "> <img src={logo} />Umo</Link>  </Navbar.Brand>
+          <Navbar.Brand > <Link to='/'  className="nav-link " id='name'> <img src={logo} />Umo</Link>  </Navbar.Brand>
           <Navbar.Toggle >   <img src={menu} className='navbar-toggler collapsed' aria-controls="basic-navbar-nav" />    </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav"> 
                 <Nav className="ml-auto text-center">
