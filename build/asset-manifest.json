@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab1c046e.chunk.css",
-    "main.js": "/static/js/main.da244861.chunk.js",
-    "main.js.map": "/static/js/main.da244861.chunk.js.map",
+    "main.css": "/static/css/main.ca917e49.chunk.css",
+    "main.js": "/static/js/main.91474c16.chunk.js",
+    "main.js.map": "/static/js/main.91474c16.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce97e594.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce97e594.js.map",
     "static/js/2.dd51159f.chunk.js": "/static/js/2.dd51159f.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/3.9dde5e85.chunk.js": "/static/js/3.9dde5e85.chunk.js",
     "static/js/3.9dde5e85.chunk.js.map": "/static/js/3.9dde5e85.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ab1c046e.chunk.css.map": "/static/css/main.ab1c046e.chunk.css.map",
+    "static/css/main.ca917e49.chunk.css.map": "/static/css/main.ca917e49.chunk.css.map",
     "static/js/2.dd51159f.chunk.js.LICENSE.txt": "/static/js/2.dd51159f.chunk.js.LICENSE.txt",
     "static/media/Ellipse 1.a5df5d2a.svg": "/static/media/Ellipse 1.a5df5d2a.svg",
     "static/media/Group.d0aa6b79.svg": "/static/media/Group.d0aa6b79.svg",
-    "static/media/Logo.ede4da6d.svg": "/static/media/Logo.ede4da6d.svg",
+    "static/media/Logo.d8e25268.svg": "/static/media/Logo.d8e25268.svg",
     "static/media/Scroll.f797d6e2.svg": "/static/media/Scroll.f797d6e2.svg",
     "static/media/Vector.0301be78.svg": "/static/media/Vector.0301be78.svg",
     "static/media/App.css": "/static/media/big Logo.439498bf.svg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.ce97e594.js",
     "static/js/2.dd51159f.chunk.js",
-    "static/css/main.ab1c046e.chunk.css",
-    "static/js/main.da244861.chunk.js"
+    "static/css/main.ca917e49.chunk.css",
+    "static/js/main.91474c16.chunk.js"
   ]
 }
