@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
 *{
   font-family: 'IBM Plex Sans', sans-serif;
@@ -15,6 +16,17 @@ nav.container.navbar.navbar-expand-lg.navbar-light.fixed-top {
   color: #fff;
 }
 
+#name{
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 25px;
+}
+
+#name:hover{
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  color: transparent;
+  background-clip: text;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.fixed-top.active {
   box-shadow: 0px 6px 16px rgba(42, 123, 215, 0.18);
   background: linear-gradient(96.01deg, #2A7BD7 -4.88%, #4ed860ce 88.77%);
@@ -24,13 +36,36 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top.active {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
-  font-weight: 600;
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  color: transparent;
+  background-clip: text;
+}
+
+ .navbar-nav .nav-link:hover {
+  background: linear-gradient(91.12deg, #2A7BD7 19.1%, #4ED861 80.14%);
+  color: transparent;
+  background-clip: text;
 }
 
 .navbar-light .navbar-nav .nav-link{
   color: #fff !important;
 }
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: transparent !important;
+  outline: none;
+}
+
+.navbar-toggler {
+  padding: 1px !important;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link.active {
   color: #fff !important;
@@ -46,9 +81,8 @@ a.nav-link.active {
 }
 
 a.nav-link.link {
-  font-size: 18px;
-  line-height: 23px;
-  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 20px;
   font-weight: 500;
   color: #fff;
 }
@@ -70,7 +104,6 @@ sub.sub {
   line-height: 62px;
 }
 
-
 p.home_intro {
   font-size: 34px;
   line-height: 43px;
@@ -87,7 +120,6 @@ button.btn {
   cursor: pointer;
   font-size: 15px;
   line-height: 23px;
-  text-transform: uppercase;
 }
 
 .green_circle img{
@@ -103,6 +135,7 @@ button.btn {
 
 .article{
   color: #fff;
+  font-size: 18px;
 }
 
 .green_circle {
@@ -111,6 +144,7 @@ button.btn {
   padding: 1.1rem;
   border-radius: 400px;
 }
+
 
 .bounce {
   animation: bounce2 2s ease infinite;
@@ -138,12 +172,16 @@ h4.colored_text {
 }
 
 .project_container{
-  background: #fffffff5;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 14px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
 
+}
+
+.project_container p{
+  color: #fff;
+  font-weight: lighter;
 }
 
 .project_container a, .project_container a:hover{
@@ -154,13 +192,7 @@ h4.colored_text {
 .project img{
   width: 100%;
   height: 100%;
-  /* border-radius: 10px; */
 }
-
- /* .project .video_player{
-  border-radius: 10px;
-
-} */
 
 .group_icon{
   display: flex;
@@ -174,7 +206,7 @@ h4.colored_text {
 
 .group_icon h6{
   font-size: 1.3rem;
-  color: #111111e5;
+  color: #ffffffe5;
 }
 
 .list_codes{
@@ -186,7 +218,7 @@ h4.colored_text {
 }
 
 .group_icon img{
-  width: 7%;
+  width: auto;
   height: auto;
   padding-left: 1rem;
   margin-top: -.5rem;
@@ -248,6 +280,14 @@ h4.colored_text {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 0 1rem;
+  }
+
+  a#contact {
+    margin-bottom: 30px;
+  }
+
+  p.home_intro {
+    font-size: 32px;
   }
   
 }

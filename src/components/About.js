@@ -10,14 +10,14 @@ export default function About() {
                 </div>
                 <div className="col-lg-8">
                 <article className='article'>
-                    I enjoy being <b>challenged</b>  and engaged with projects that requires me to work outside my comfort and knowledge set,
+                    I enjoy being challenged and engaged with projects that requires me to work outside my comfort and knowledge set,
                 as continuing to learn new languages and development techniques are important to me.
                 </article>
                 <article className='pt-4 article'>
-                    I am outgoing, <b>dedicated</b> , and open-minded. I get across to 
+                    I am outgoing, dedicated , and open-minded. I get across to 
                     people and adjust to changes with ease. I believe  that a person should work
-                    on <b>developing</b>  their professional skills and learning new things all the time. Meeting new people who support all my efforts to <b>grow</b>  and develop my skills not 
-                    only in the subjects but also in my hobbies gives me a lot of <b>energy</b> .
+                    on developing  their professional skills and learning new things all the time. Meeting new people who support all my efforts to grow  and develop my skills not 
+                    only in the subjects but also in my hobbies gives me a lot of energy .
                 </article>
                 </div>
             </div>
