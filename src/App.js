@@ -19,13 +19,14 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App container">
-
+      <div >
+      
       {
           loading ?
            <Loader className='text-center spinner mt-5' type="Circles" color="#fff" height={80} width={80} />
           :
-          <NavbarTab/>
+          <NavbarTab/> 
+
 
       }
       </div>
