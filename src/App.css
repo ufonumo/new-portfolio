@@ -273,6 +273,11 @@ h4.colored_text {
 
 }
 
+canvas.tsparticles-canvas-el {
+  width: 100vw;
+  height: 100vh;
+}
+
 @media (max-width: 748px){
   section.home {
     margin-top: 100px;
