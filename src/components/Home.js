@@ -3,8 +3,6 @@ import vector from "../assets/Vector.svg";
 import photo from '../assets/Ellipse 1.svg';
 import scroll from "../assets/Scroll.svg";
 
-import Particles from "react-particles-js";
-
 
 export default function Home() {
     return (
