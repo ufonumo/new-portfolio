@@ -11,13 +11,12 @@ export default function About() {
                 <div className="col-lg-8">
                 <article className='article'>
                     I enjoy being challenged and engaged with projects that requires me to work outside my comfort and knowledge set,
-                as continuing to learn new languages and development techniques are important to me.
+                as continuing to learn new languages and development techniques are important to me. I am outgoing, dedicated , and open-minded. I get across to 
+                    people and adjust to changes with ease.
                 </article>
                 <article className='pt-4 article'>
-                    I am outgoing, dedicated , and open-minded. I get across to 
-                    people and adjust to changes with ease. I believe  that a person should work
-                    on developing  their professional skills and learning new things all the time. Meeting new people who support all my efforts to grow  and develop my skills not 
-                    only in the subjects but also in my hobbies gives me a lot of energy .
+                    My specialties includes quickly learning new skills and programming languages, problem solving and responsive design principles. I have React, React Redux, Material-UI, JavaScript, HTML, CSS, Bootstrap, jQuery, Git and GitHub under my belt.
+                     I am still grabbing onto other programming languages, frameworks I can integrate into coding the web in my head.
                 </article>
                 </div>
             </div>
@@ -29,7 +28,7 @@ export default function About() {
                         <h4 className='colored_text'>SKILLS</h4>
                     </div>
                     <div className="col-lg-8">
-                      <p className='article'>Javascript ES6, React, Next.js,  CSS3, Bootstrap, SCSS, HTML5, BEM, Git,  </p>
+                      <p className='article'>Javascript ES6, React, React Redux, Next.js,  CSS3, Bootstrap, SCSS, HTML5, BEM, Git,  </p>
                     </div>
                 </div>
             </section>

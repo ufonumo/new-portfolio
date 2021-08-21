@@ -219,6 +219,7 @@ h4.colored_text {
 
 .list_codes{
  display: flex;
+ flex-wrap: wrap;
 }
 
 .list_codes li{

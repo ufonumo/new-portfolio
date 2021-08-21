@@ -1,6 +1,6 @@
 import React from 'react'
 import group from '../assets/Group.svg';
-import resume from '../assets/umo.pdf';
+import resume from '../assets/Ufonabasi.pdf';
 
 export default function Footer() {
     return (
