@@ -81,14 +81,14 @@ const NavbarTab = () =>{
         <div className='container'>
           <Navbar  fixed="top" className={navbar ? 'navbar active ' : 'navbar'}  expand="lg">
             <div className="container">
-              <Navbar.Brand > <Link to='/'  className="nav-link " id='name'> <img src={logo} />Umo</Link>  </Navbar.Brand>
+              <Navbar.Brand > <Link to='/'  className="nav-link " id='name'> <img src={logo} alt='Umo' />Umo</Link>  </Navbar.Brand>
                 <Navbar.Toggle >   <img src={menu} alt='menu icon' className='navbar-toggler collapsed' aria-controls="basic-navbar-nav" />    </Navbar.Toggle>
                   <Navbar.Collapse id="basic-navbar-nav"> 
                       <Nav className="ml-auto text-center">
                         <Nav.Link > <Link smooth scroll={el => { el.scrollIntoView(true); window.scrollBy(0, -100);  }} to="#home" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Home</Link> </Nav.Link>
                         <Nav.Link > <Link smooth scroll={el => { el.scrollIntoView(true); window.scrollBy(0, -100);  }} to="#about" className={navbar ? 'nav-link link active ' : 'nav-link link '} >About Me</Link> </Nav.Link>
                         <Nav.Link > <Link smooth scroll={el => { el.scrollIntoView(true); window.scrollBy(0, -100);  }} scrolloffset="1000" to="#projects" className={navbar ? 'nav-link link active ' : 'nav-link link '} >Projects</Link> </Nav.Link>
-                        <Nav.Link href="mailto:ufonumo@gmail.com " > <a id='contact' className={navbar ? 'nav-link link active ' : 'nav-link link '} >Say Hello</a> </Nav.Link>
+                        <Nav.Link href="mailto:ufonumo@gmail.com " > <a href='mailto:ufonumo@gmail.com' id='contact' className={navbar ? 'nav-link link active ' : 'nav-link link '} >Say Hello</a> </Nav.Link>
                     </Nav>
                   
                 </Navbar.Collapse>

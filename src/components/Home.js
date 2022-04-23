@@ -17,7 +17,7 @@ export default function Home() {
                     <div className="col-lg-5 white mb-4">
                     <div className="blue_circle">
                         <div className="green_circle ">
-                        <img src={photo}  alt="my photo"/>
+                        <img src={photo}  alt="mine"/>
                         </div>
                     </div>
                     </div>
