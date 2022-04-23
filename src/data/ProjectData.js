@@ -1,19 +1,60 @@
 import thees from "../assets/thess.jpg";
 import vendor from "../assets/vendor.jpg";
-import weaner from "../assets/healthy.jpg";
 import wildfire from "../assets/wildfire.jpg";
 import convert from "../assets/convert.jpg";
 import convertvideo from "../assets/convertvid.mp4";
-import weanervideo from "../assets/healthy.mp4";
 import video from "../assets/stockapp.mp4";
 import oatsvid from "../assets/oatsvilles.mp4";
 import oatsville from "../assets/oatsvile.jpg";
 import couture from "../assets/couture.png";
 import vendorvideo from "../assets/vendor.mp4";
 import lavendrrcouture from "../assets/lavendrr.mp4";
+import ify from "../assets/ify.png";
+import vmc from "../assets/vmc.png";
+import ekicc from "../assets/ekicc.png";
 
 const projectData =  [
-
+    {
+        title: `Ify's Kitchen`,
+        image: ify,
+        description: `This is a website for Ify's Kitchen, We offer you premium content that brings all the good food recipes and put them in one place. It was built using typescript and styled with sass`,
+        alt: 'food application',
+        code: [
+            {'list': 'Typescript'},
+            {'list': 'Socket.io'},
+            {'list': 'Redux'},
+            {'list': 'Sass'}
+        ],
+        link: 'https://staging.ifyskitchen.com/'
+    },
+    {
+        title: `Vmc Telemedicine `,
+        image: vmc,
+        description: `Our vision is to put accessible and affordable health services in the hands of every person in Nigeria.
+        Book a consultation today with a healthcare professional at any time of day or night. We’ll recommend the best clinician for you to speak to. It was built using typescript and styled with sass`,
+        alt: 'telemedicine application',
+        code: [
+            {'list': 'Typescript'},
+            {'list': 'Twillio'},
+            {'list': 'Redux'},
+            {'list': 'Sass'},
+            {'list': 'React'},
+        ],
+        link: 'https://vmc.workcube.com.ng/'
+    },
+    {
+        title: `e-KICC`,
+        image: ekicc,
+        description: `The e-KICC is an online platform by KICC to connect people across the globe to worship God as a community. It was built using typescript and styled with tailwind css`,
+        alt: 'e-KICC application',
+        code: [
+            {'list': 'React'},
+            {'list': 'Typescript'},
+            {'list': 'React query'},
+            {'list': 'Tailwind css'},
+        ],
+        link: 'https://ekicc.global/'
+    }, 
     {
         title: `Lavendrr couture `,
         image: couture,
@@ -27,8 +68,7 @@ const projectData =  [
             {'list': 'Material-ui'}
         ],
         link: 'https://lavendrr.netlify.app/'
-    },
-
+    },    
     {
         title: `Thee's news App `,
         image: thees,
@@ -93,21 +133,21 @@ const projectData =  [
 
     },
 
-    {
-        title: `Healthy Switcher`,
-        image: weaner,
-        video: weanervideo,
-        alt: 'Food',
-        // code: `HTML ,  CSS , Bootstrap`,
-        code: [
-            {'list': 'Html'},
-            {'list': 'Css'},
-            {'list': 'Boostrap'},
-        ],
-        description: 'This is the landing page of a food restrautant website',
-        link: 'https://healthy-switcher-app-ufon.netlify.app/'
+    // {
+    //     title: `Healthy Switcher`,
+    //     image: weaner,
+    //     video: weanervideo,
+    //     alt: 'Food',
+    //     // code: `HTML ,  CSS , Bootstrap`,
+    //     code: [
+    //         {'list': 'Html'},
+    //         {'list': 'Css'},
+    //         {'list': 'Boostrap'},
+    //     ],
+    //     description: 'This is the landing page of a food restrautant website',
+    //     link: 'https://healthy-switcher-app-ufon.netlify.app/'
 
-    },
+    // },
 
     
     {

@@ -11,7 +11,7 @@ export const ProjectData = [
         title: `Thee's news App `,
         image: thees,
         alt: 'Food',
-        type: WEBAPP,
+        type: "WebApp",
         description: '',
         link: 'https://thees-news-app.netlify.app/',
         code: 'HTML '
@@ -53,7 +53,6 @@ export const ProjectData = [
 
     },
 
-    
     {
         title: `Weather Webapp`,
         image: weather,

@@ -28,7 +28,7 @@ export default function About() {
                         <h4 className='colored_text'>SKILLS</h4>
                     </div>
                     <div className="col-lg-8">
-                      <p className='article'>Javascript ES6, React, React Redux, Next.js,  CSS3, Bootstrap, SCSS, HTML5, BEM, Git,  </p>
+                      <p className='article'>React, Typescript, Javascript ES6,  Redux, Next.js,  CSS3, Bootstrap, Tailwind css, SCSS, HTML5, BEM, Git,  </p>
                     </div>
                 </div>
             </section>
